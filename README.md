@@ -76,6 +76,11 @@ Here’s what each test **measures** and **detects**:
 - The models are trained and tested to identify the normal behaviour of capping machines, and then to understand if there are problems in thei behaviour.
 
 Isolation Forest parameters:
+- 'contamination': 'auto'
+- 'max_features': 0.5
+- 'max_samples': 'auto'
+- 'n_estimators': 100
+- 'random_state': 42
 
 LSTM Autoencoder model:
 
